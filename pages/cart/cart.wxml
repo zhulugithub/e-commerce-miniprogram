@@ -1,0 +1,4 @@
+<view class="top">
+  <text class="cart">购物车</text>
+  <button class="edit" size='mini' type='primary'>编辑</button>
+</view>

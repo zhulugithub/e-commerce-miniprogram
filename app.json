@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/account/account",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#b3ad17",
+    "navigationBarTitleText": "专属你的",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#262626",
+    "selectedColor": "#918c00",
+    "list": [
+      {
+        "iconPath": "pages/icons/index.png",
+        "selectedIconPath": "pages/icons/index_fill.png",
+        "pagePath": "pages/index/index",
+        "text": "专属首页"
+      },
+      {
+        "iconPath": "pages/icons/cart.png",
+        "selectedIconPath": "pages/icons/cart_fill.png",
+        "pagePath": "pages/cart/cart",
+        "text": "专属购物车"
+      },
+      {
+        "iconPath": "pages/icons/account.png",
+        "selectedIconPath": "pages/icons/account_fill.png",
+        "pagePath": "pages/account/account",
+        "text": "专属账户"
+      }
+    ]
+  }
+}
