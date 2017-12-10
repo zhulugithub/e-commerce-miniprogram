@@ -1,6 +1,35 @@
 <view class="container">
-    <view class='user_box'>
-      <image class="avatar" src='../../resource/image/user.jpg'></image>
-      <text class='username' bindtap="bindUserTap">Hi 你好</text>
+  <view class='user_box'>
+    <image class="avatar" src="../../resource/image/user.jpg"></image>
+    <text class='username' bindtap="bindUserTap">Hi 你好</text>
+  </view>
+  <view class="order">
+    <!-- 订单页面，直接跳转  -->
+    <navigator class="head" url="">
+      <view class="label">我的订单</view>
+      <image class="icon" src="../../resource/icons/right.png"></image>
+    </navigator>
+    <view class="items">
+      <view class="item">
+        <image class="icon" src="../../resource/icons/order_paid.png"></image>
+        <view class="label">待付款</view>
+        <view class="count" wx:if="{{orderTotal.paid > 0}}">1</view>
+      </view>
+      <view class="item">
+        <image class="icon" src="../../resource/icons/order_delivering.png"></image>
+        <view class="label">待发货</view>
+        <view class="count" wx:if="{{orderTotal.delivering > 0}}">2</view>
+      </view>
+      <view class="item">
+        <image class="icon" src="../../resource/icons/order_deliveried.png"></image>
+        <view class="label">待收货</view>
+        <view class="count" wx:if="{{orderTotal.deliveried > 0}}">1000</view>
+      </view>
+      <view class="item">
+        <image class="icon" src="../../resource/icons/order_comment.png"></image>
+        <view class="label">待评论</view>
+        <view class="count" wx:if="{{orderTotal.finished > 0}}">40</view>
+      </view>
     </view>
+  </view>
 </view>
