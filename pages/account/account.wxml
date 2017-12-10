@@ -1,0 +1,6 @@
+<view class="container">
+    <view class='user_box'>
+      <image class="avatar" src='../../resource/image/user.jpg'></image>
+      <text class='username' bindtap="bindUserTap">Hi 你好</text>
+    </view>
+</view>

@@ -1,26 +1,28 @@
-<view class="panels">
-  <view class="only">
-    <text class='coffee'>{{text_1}}</text>
-  </view>
-</view>
-<view class="panels">
-  <view class="some left">
-    <text class='coffee'>{{text_2}}</text>
-  </view>
-  <view class="some right">
-    <text class='coffee'>{{text_3}}</text>
-  </view>
-</view>
-<view class="panels">
-  <view class="some left">
-    <text class='coffee'>{{text_4}}</text>
-  </view>
-  <view class="some right">
-    <text class='coffee'>{{text_5}}</text>
-  </view>
-</view>
-<view class="panels">
-  <view class="only">
-    <text class='coffee'>{{text_6}}</text>
+<view class="container">
+  <view class="section">
+    <view class="brand">
+      <image class="product" src="../../resource/image/1.jpeg"></image>
+      <view class="title"><text>专属鞋柜</text></view>
+    </view>
+    <view class="brand">
+      <image class="product" src="../../resource/image/1.jpeg"></image>
+      <view class="title"><text>专属婚鞋</text></view>
+    </view>
+    <view class="brand">
+      <image class="product" src="../../resource/image/1.jpeg"></image>
+      <view class="title"><text>专属私藏</text></view>
+    </view>
+    <view class="brand">
+      <image class="product" src="../../resource/image/1.jpeg"></image>
+      <view class="title"><text>专属职场</text></view>
+    </view>
+    <view class="brand">
+      <image class="product" src="../../resource/image/1.jpeg"></image>
+      <view class="title"><text>你的专属，你来定制</text></view>
+    </view>
+    <view class="brand">
+      <image class="product" src="../../resource/image/1.jpeg"></image>
+      <view class="title"><text>你的专属故事</text></view>
+    </view>
   </view>
 </view>

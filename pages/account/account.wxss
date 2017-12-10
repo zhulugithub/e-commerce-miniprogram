@@ -1,0 +1,25 @@
+.container {
+  height: 100%;
+  overflow: hidden;
+}
+
+.user_box {
+  background: #333;
+  height: 400rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.user_box .avatar {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+}
+
+.user_box .username {
+  margin-top: 30rpx;
+  font-size: 14px;
+  color: #fff;
+}

@@ -1,52 +1,30 @@
-.panels {
-  padding: 20px 15px 0px 15px;
-  height: 100px;
+page {
+  padding-top: 50rpx;
 }
 
-.panel {
-  background-color: #cde777;
-  margin: 5px auto;
-  border-radius: 10px;
-  width: 45%;
-  float: left;
-  text-align: center;
-  border-color: #bf6900;
-  box-shadow: 2px 2px 1px #888888;
+.section {
+  display: flex;
+  flex-flow: wrap;
 }
 
-.only {
-  background-color: #cde777;
-  text-align: center;
-  border-color: #bf6900;
-  height: 100px;
-  border-radius: 10px;
-  display: -webkit-box;
-  -webkit-box-pack: center;
-  -webkit-box-align: center;
+.brand {
+  height: 300rpx;
+  width: 300rpx;
+  margin: 0rpx 0rpx 50rpx 50rpx;
+  border-radius: 15rpx; 
+  background-color: #f3f2f7;
+  box-shadow: rgb(170, 170, 170) 0px 0px 14rpx 0px;
 }
 
-.some {
-  background-color: #cde777;
-  text-align: center;
-  border-color: #bf6900;
-  height: 100px;
-  border-radius: 10px;
-  width: 45%;
-  float: left;
-  display: -webkit-box;
-  -webkit-box-pack: center;
-  -webkit-box-align: center;
+.product {
+  height: 80%;
+  width: 100%;
+  border-radius: 6rpx;
 }
 
-.left {
-  margin-right: 15px;
-}
-
-.right {
-  margin-left: 15px;
-}
-
-.coffee {
-  color: #595f28;
-  font-size: 14px;
+.title {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
