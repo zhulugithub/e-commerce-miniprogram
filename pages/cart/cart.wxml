@@ -1,4 +1,48 @@
-<view class="top">
-  <text class="cart">购物车</text>
-  <button class="edit" size='mini' type='primary'>编辑</button>
+<view class="container">
+  <view class="cart-view">
+    <view class="item">
+      <checkbox value="0" checked="false" color="#2d2c32"/>
+      <image class="img" src="../../resource/image/1.jpeg"></image>
+      <view class="info">
+        <text class="name">这是一双价值连城的鞋</text>
+        <text class="price">￥100,000.00</text>
+      </view>
+      <view class="quantity">
+        <image class="img" src="../../resource/icons/round_add.png"></image>
+        <text class="count">1</text>
+        <image class="img" src="../../resource/icons/round_sub.png"></image>
+      </view>
+    </view>
+    <view class="item">
+      <checkbox value="0" checked="false" color="#2d2c32"/>
+      <image class="img" src="../../resource/image/1.jpeg"></image>
+      <view class="info">
+        <text class="name">这是一双价值连城的鞋</text>
+        <text class="price">￥100,000.00</text>
+      </view>
+      <view class="quantity">
+        <image class="img" src="../../resource/icons/round_add.png"></image>
+        <text class="count">1</text>
+        <image class="img" src="../../resource/icons/round_sub.png"></image>
+      </view>
+    </view>
+    <view class="item">
+      <checkbox value="0" checked="false" color="#2d2c32"/>
+      <image class="img" src="../../resource/image/1.jpeg"></image>
+      <view class="info">
+        <text class="name">这是一双价值连城的鞋</text>
+        <text class="price">￥100,000.00</text>
+      </view>
+      <view class="quantity">
+        <image class="img" src="../../resource/icons/round_add.png"></image>
+        <text class="count">1</text>
+        <image class="img" src="../../resource/icons/round_sub.png"></image>
+      </view>
+    </view>
+  </view>
+  <!-- <view class="cart-footer">
+    <checkbox value="0" checked="false" color="#2d2c32"/>
+    <text class="total">合计: ￥1000,000.00</text>
+    <button class="pay">去结算</button>
+  </view> -->
 </view>
