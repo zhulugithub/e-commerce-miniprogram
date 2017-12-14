@@ -51,6 +51,35 @@
   margin: 0 20rpx;
 }
 
-/* .cart-footer {
-  margin-bottom: 0rpx;
-} */
+ .cart-footer {
+  bottom: 0;
+  height: 100rpx;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #f4f4f4;
+  background-color: #fff;
+}
+
+.cart-footer .all {
+  margin-left: 25rpx;
+}
+
+.cart-footer .total {
+  color: #f10215;
+  margin-left: 180rpx;
+}
+
+.cart-footer .pay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 180rpx;
+  background-color: #f10215;
+  color: #fff;
+  border-top-left-radius: 2rpx;
+  border-bottom-left-radius: 2rpx;
+}
