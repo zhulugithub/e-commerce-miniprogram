@@ -32,4 +32,28 @@
       </view>
     </view>
   </view>
+
+  <!-- 我的收藏、红包、优惠券、收货地址、积分记录  -->
+  <view class="section-menu">
+    <view class="item">
+      <image class="icon" src="../../resource/icons/favor.png"></image>
+      <view class="label">我的收藏</view>
+      <image class="icon-go" src="../../resource/icons/right.png"></image>
+    </view>
+    <view class="item">
+      <image class="icon" src="../../resource/icons/redpacket.png"></image>
+      <view class="label">红包/优惠券</view>
+      <image class="icon-go" src="../../resource/icons/right.png"></image>
+    </view>
+    <view class="item">
+      <image class="icon" src="../../resource/icons/list.png"></image>
+      <view class="label">收货地址</view>
+      <image class="icon-go" src="../../resource/icons/right.png"></image>
+    </view>
+    <view class="item">
+      <image class="icon" src="../../resource/icons/sponsor.png"></image>
+      <view class="label">积分记录</view>
+      <image class="icon-go" src="../../resource/icons/right.png"></image>
+    </view>
+  </view>
 </view>
