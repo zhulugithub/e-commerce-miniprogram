@@ -3,23 +3,25 @@ page {
 }
 
 .section {
+  padding: 0rpx 50rpx;
   display: flex;
   flex-flow: wrap;
+  justify-content: space-between;
 }
 
 .brand {
   height: 300rpx;
   width: 300rpx;
-  margin: 0rpx 0rpx 50rpx 50rpx;
-  border-radius: 15rpx; 
+  border-radius: 15rpx;
+  margin-bottom: 15px;
   background-color: #f3f2f7;
-  box-shadow: rgb(170, 170, 170) 0px 0px 14rpx 0px;
+  box-shadow: #AAAAAA 0px 0px 8rpx 0px;
 }
 
 .product {
   height: 80%;
   width: 100%;
-  border-radius: 6rpx;
+  border-radius: 6rpx
 }
 
 .title {

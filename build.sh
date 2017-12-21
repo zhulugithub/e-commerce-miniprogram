@@ -1,0 +1,1 @@
+/Applications/wechatwebdevtools.app/Contents/Resources/app.nw/bin/cli -p /Users/vincent/developer/e-commerce-miniprogram --preview-qr-output base64@/Users/vincent/developer/e-commerce-miniprogram/code.txt
