@@ -1,48 +1,22 @@
 <view class="container">
-  <view class="cart-view">
-    <view class="item">
-      <checkbox value="0" checked="false" color="#2d2c32"/>
-      <image class="img" src="../../resource/image/1.jpeg"></image>
+  <view wx:for="{{ items }}" wx:key="unique" class="cart-view">
+    <view class="item" bindtap="checked" data-index="{{ index }}">
+      <image class="icon" src="{{ item.checked ? '../../resource/icons/round_check.png' : '../../resource/icons/round_check_fill.png' }}"></image>
+      <image class="img" src="{{ item.img }}"></image>
       <view class="info">
-        <text class="name">这是一双价值连城的鞋</text>
-        <text class="price">￥100,000.00</text>
+        <text class="name">{{ item.name }}</text>
+        <text class="price">￥{{ item.price }}</text>
       </view>
       <view class="quantity">
-        <image class="img" src="../../resource/icons/round_add.png"></image>
-        <text class="count">1</text>
-        <image class="img" src="../../resource/icons/round_sub.png"></image>
-      </view>
-    </view>
-    <view class="item">
-      <checkbox value="0" checked="false" color="#2d2c32"/>
-      <image class="img" src="../../resource/image/1.jpeg"></image>
-      <view class="info">
-        <text class="name">这是一双价值连城的鞋</text>
-        <text class="price">￥100,000.00</text>
-      </view>
-      <view class="quantity">
-        <image class="img" src="../../resource/icons/round_add.png"></image>
-        <text class="count">1</text>
-        <image class="img" src="../../resource/icons/round_sub.png"></image>
-      </view>
-    </view>
-    <view class="item">
-      <checkbox value="0" checked="false" color="#2d2c32"/>
-      <image class="img" src="../../resource/image/1.jpeg"></image>
-      <view class="info">
-        <text class="name">这是一双价值连城的鞋</text>
-        <text class="price">￥100,000.00</text>
-      </view>
-      <view class="quantity">
-        <image class="img" src="../../resource/icons/round_add.png"></image>
-        <text class="count">1</text>
-        <image class="img" src="../../resource/icons/round_sub.png"></image>
+        <image class="img" src="{{ round_add }}" catchtap="product_quantity" data-index="{{ index }}" data-type="add"></image>
+        <text class="count">{{ item.count }}</text>
+        <image class="img" src="{{ round_sub }}" catchtap="product_quantity" data-index="{{ index }}" data-type="sub"></image>
       </view>
     </view>
   </view>
-   <view class="cart-footer">
-    <checkbox class="all" value="0" checked="false" color="#2d2c32"/>
-    <text class="total">合计: ￥1000,000.00</text>
+   <view class="cart-footer" bindtap="all">
+    <image class="icon" src="{{ checked ? '../../resource/icons/round_check.png' : '../../resource/icons/round_check_fill.png' }}"></image>
+    <text class="total">合计: ￥{{ total_price }}</text>
     <view class="pay">去结算</view>
   </view> 
 </view>

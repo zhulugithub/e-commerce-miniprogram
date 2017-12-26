@@ -1,6 +1,6 @@
 <view class="container">
   <view class="section">
-    <view wx:for="{{array}}" class="brand">
+    <view wx:for="{{array}}" wx:key="unique" class="brand">
       <image class="product" src="{{item.image_src}}"></image>
       <view class="title"><text>{{item.name}}</text></view>
     </view>

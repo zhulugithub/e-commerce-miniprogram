@@ -33,10 +33,10 @@
 }
 
 
-.item checkbox {
-  margin: auto 10rpx;
-  display: inline-block;
-  border-radius: 100%;
+.item .icon {
+  margin: auto 25rpx;
+  width: 50rpx;
+  height: 50rpx;
 }
 
 .quantity {
@@ -46,8 +46,8 @@
 }
 
 .quantity .img {
-  width: 50rpx;
-  height: 50rpx;
+  width: 55rpx;
+  height: 55rpx;
   margin: 0 20rpx;
 }
 
@@ -63,8 +63,10 @@
   background-color: #fff;
 }
 
-.cart-footer .all {
-  margin-left: 25rpx;
+.cart-footer .icon {
+  margin-left: 40rpx;
+  width: 50rpx;
+  height: 50rpx;
 }
 
 .cart-footer .total {
